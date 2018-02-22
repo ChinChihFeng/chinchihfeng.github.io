@@ -1,5 +1,4 @@
-p {
-   color:white;
-   background-color:black;
-   font-size:130%;
+#intro .first em {
+   color: pink; 
+   background-color:gray;
 }
