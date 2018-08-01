@@ -9,6 +9,12 @@ p {
     font-size: 16px;
 }
 
+@media screen and (max-width: 600px) {
+  body {
+    display: none;
+  }
+}
+
 .p-contact {
     padding-top: 200px;
     font-size: larger;
