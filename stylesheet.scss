@@ -31,9 +31,9 @@ p {
     color: #1abc9c !important;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 300px) {
   body {
-    display: none;
+    font-weight: bolder;
   }
 }
 
