@@ -36,7 +36,7 @@ p {
   }
 }
 .top-margin {
-  margin-bottom: 50px;
+  margin-top: 30px;
 }
 
 .footer-margin {
@@ -72,14 +72,17 @@ p {
 
 .contact-background {
   background-image: url("contactbackground.jpg");
-  width: 100%;
-  /* Full height */
-  height: 100%;
-  /* Center and scale the image nicely */
-  background-position: center;
+  opacity: 0.8;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.75;
+  background-position: center;
+  padding-bottom: 15%;
+}
+.contact-background p {
+  padding-top: 25%;
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
