@@ -80,5 +80,14 @@ p {
   font-weight: bold;
   letter-spacing: 5px;
 }
+#contact-background h3 {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+#contact-background .top-margin {
+  margin-top: 50px;
+}
 
 /*# sourceMappingURL=stylesheet.css.map */
