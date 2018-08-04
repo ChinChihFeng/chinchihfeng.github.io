@@ -14,7 +14,7 @@ body {
 }
 
 p {
-  font-size: 16px;
+  font-size: 25px;
 }
 
 .navbar {
@@ -71,6 +71,7 @@ p {
 
 #contact-background {
   background-image: url("contactbackground.jpg");
+  background-size: 100% auto;
   height: 100%;
 }
 #contact-background h2 {
