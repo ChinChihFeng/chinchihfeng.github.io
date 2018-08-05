@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Home Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Chin-Chih's Webpage</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html#top">WHOAMI</a></li>
+        <li><a href="project.html">PROJECT</a></li>
+        <li><a href="contact.html">WHERE</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid project-skills text-center">
+  <div>
+    <h3 style="color:white">Technical Skills</h3>
+    <p style="color:black">What kind of skills I learned or known</p>
+    <table>
+        <tr>
+          <th>Programming Language : Shell script / Python / HTML / CSS / Python / SPSS / SQL / C++ </th>
+       </tr>
+       <tr>
+         <th>Operating System : RedHat / CentOS / Ubuntu / Debian / Unix-like series / Windows series</th>
+       </tr>
+       <tr>
+         <th>Methodologies and Tools : </th>
+       </tr>
+       <td>
+         <ul>
+           <li align="left">
+           Service: Redis / Bind / ActiveMQ / Kafka / Zookeeper / Redis / Bind / ZMQ / Memcache / Tomcat / NodeJS / Eleasticsearch / Logstash / Filebeat / Etcd / Graphite / OpenLDAP / Radius / Samba / OpenVPN / iSCSI / SNMP
+           </li>
+           <li align="left">
+           Version Control: GitHub / GitLab
+           </li>
+           <li align="left">
+           Database: MSSQL /  MYSQL / MariaDB / Postgresql
+           </li>
+           <li align="left">
+           Proxy: Nginx / Apache / HAProxy / Akamai / Cloudflare / Incapsula
+           </li>
+           <li align="left">
+           Visualization: VMware / Citrix / Ovirt / KVM / VisualBox
+           </li>
+           <li align="left">
+           Network: Cisco / Juniper / Dell / Fortigate / Brocade / RouterOS
+           </li>
+           <li align="left">
+           Monitoring: Nagios / Zabbix / Cacti / Grafana
+           </li>
+         </ul>
+       </td>
+    </table>
+  </div>
+</div>
+
+<!-- Second Container (Grid) -->
+<div class="container-fluid project-container2 text-center">
+  <div>
+    <h3 style="color:black">What projects I did?</h3>
+    <p class="text-left"><span style="color:blue">Virtualizaion</span> : There were all physical machines at beginning. Most physical machines transferred to VMware and controlled by vCenter.After that, I used opensource solution: KVM and oVirt, tried to manage all machines. VirtualBox helps me test the playbooks in Ansible or simulate an environment when I need. </p>
+    <p class="text-left"><span style="color:blue">Automation</span> : There are so many playbooks I created. They can build/rebuild an environment as soon as passible. Nginx, Tomcat and other services could install and ready on new servers in short time. Jenkins and Docker help me to do Continuous Integration/Continuous Delivery. It makes the steps of installing in Ansible that can be verified within containers, scale services on stages as well. </p>
+    <p class="text-left"><span style="color:blue">Log aggregation</span> : Collecting all system logs and application logs into elasticsearch, defining the format they are. Graphite gives me a methodology to receive metrics via network. Filebeat provides a simple way to parse logs regularly. Redis and Kafka clusters are being queue servers to store and digest huge metadata before them standardizing. Logstash would help us to standardize which parts of information I need and send them into elasticsearch. Grafana and Kibana are provided a visible and a searchable dashboard to find out where are issues soon. </p>
+    <p class="text-left"><span style="color:blue">Architecture</span> : Distinguishing the stages where they are unclear. Designing and planning the architecture, network flow and security when applications are all defined.Constructing the infrastructure on each stage, including orders on racks, arrangement of cables and so on after systems are ready to get online. </p>
+  </div>
+</div>
+</body>
+</html>
+
