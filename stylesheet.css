@@ -44,6 +44,10 @@ p {
   margin-bottom: 30px;
 }
 
+.whattodo-txt {
+  min-height: 180px;
+}
+
 .container-fluid {
   padding-top: 40px;
   padding-bottom: 40px;
