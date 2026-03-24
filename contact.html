@@ -1,50 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Contact</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <title>Contact | Chin-Chih Feng</title>
+  <meta name="description" content="Contact Chin-Chih Feng for conversations about infrastructure, network deployment, automation, and platform reliability.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="stylesheet.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body id="contact-background">
-
-<!-- Navbar -->
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="index.html">Chin-Chih's Webpage</a>
+<body class="page-contact">
+  <header class="site-header">
+    <div class="shell header-row">
+      <a class="brand-mark" href="index.html">Chin-Chih Feng</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html#about">About</a>
+        <a href="index.html#expertise">Expertise</a>
+        <a href="project.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="index.html#top">WHOAMI</a></li>
-        <li><a href="project.html">PROJECT</a></li>
-        <li><a href="contact.html">WHERE</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+  </header>
 
-<div class="containter-fluid">
-    <div class="text-center">
-        <h2>
-        CONTACT
-        <h3>
-        <br>Free feel to contact me</br>
-        Opening new opportunities now
-        </h3>
-        <div class="containter-fluid top-margin footer-margin">
-        <a href="mailto:uriahfeng@gmail.com" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-envelope"></span> EMAIL ME</a>
+  <main>
+    <section class="page-hero page-hero-contact">
+      <div class="hero-backdrop hero-contact-backdrop" aria-hidden="true"></div>
+      <div class="shell page-hero-layout">
+        <div class="page-hero-copy">
+          <p class="eyebrow">Contact</p>
+          <h1>Let&apos;s talk about the systems behind the product.</h1>
+          <p>
+            If you are looking for help around infrastructure, network deployment,
+            automation, operations, or platform reliability, email is the best way to reach me.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="mailto:uriahfeng@gmail.com">Start by Email</a>
+            <a class="button button-secondary" href="project.html">Review Technical Profile</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-paper">
+      <div class="shell contact-layout reveal">
         <div>
+          <p class="eyebrow">How I Can Help</p>
+          <h2>Best fit for teams that need stronger delivery and network foundations.</h2>
+        </div>
+
+        <div class="contact-points">
+          <article class="contact-point">
+            <span>Infrastructure</span>
+            <p>Environment planning, service topology, and operational readiness.</p>
+          </article>
+          <article class="contact-point">
+            <span>Network Deployment</span>
+            <p>Home and enterprise rollout, switching, wireless coverage, and clean on-site integration.</p>
+          </article>
+          <article class="contact-point">
+            <span>Automation</span>
+            <p>Provisioning flows, repeatable deployment steps, and reduced manual work.</p>
+          </article>
+          <article class="contact-point">
+            <span>Observability</span>
+            <p>Metrics, logs, dashboards, and the signal paths needed for faster diagnosis.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="shell contact-cta reveal">
+        <div class="contact-panel">
+          <p class="eyebrow">Direct</p>
+          <h2>Email remains the fastest private channel.</h2>
+          <p>
+            Share the context, your current environment, and where the friction is.
+            I can usually understand the direction quickly from there.
+          </p>
+          <a class="text-link" href="mailto:uriahfeng@gmail.com">Send an email</a>
+        </div>
+        <div class="contact-panel contact-panel-image">
+          <img src="background3.jpg" alt="A miniature traveler standing on a map">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-row">
+      <p>Chin-Chih Feng</p>
+      <p>Available for infrastructure, network deployment, and platform conversations.</p>
     </div>
-</div>
+  </footer>
 </body>
 </html>
