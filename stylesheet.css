@@ -110,6 +110,16 @@ ul {
   transition: color 180ms ease, transform 180ms ease;
 }
 
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+}
+
+.lang-divider {
+  color: var(--muted);
+}
+
 .site-nav a:hover,
 .site-nav a:focus-visible,
 .text-link:hover,
